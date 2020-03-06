@@ -6,6 +6,7 @@
 *.ko
 *.obj
 *.elf
+*.axf
 
 # Linker output
 *.ilk
@@ -35,6 +36,7 @@
 *.i*86
 *.x86_64
 *.hex
+*.bin
 
 # Debug files
 *.dSYM/
@@ -50,55 +52,13 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
-# Prerequisites
-*.d
 
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+# Build folder outputs
+*build
+*out
 
-# Linker output
-*.ilk
-*.map
-*.exp
+# File system meta data
+*.DS_Store
 
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
-
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+# Misc tool outputs
+.uncrustify-search
